@@ -1,4 +1,6 @@
 Revision history for Unicode-CheckUTF8-PP
 
 {{$NEXT}}
-    -
+    - Define interface to match Unicode::CheckUTF8
+    - Add compilation test
+    - Add README
