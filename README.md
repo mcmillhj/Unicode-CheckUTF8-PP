@@ -32,8 +32,6 @@ Pure Perl implementation of [Unicode::CheckUTF8](https://metacpan.org/pod/Unicod
 
 Hunter McMillen <mcmillhj@gmail.com>
 
-Based entirely on [Unicode::CheckUTF8](https://metacpan.org/pod/Unicode::CheckUTF8), written by Brad Fitzpatrick
-
 # COPYRIGHT AND LICENSE
 
 This software is copyright (c) 2016 by Hunter McMillen.
