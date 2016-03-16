@@ -95,7 +95,7 @@ my $_isLegalUTF8String = sub {
        $i += $length;
     }
 
-    return $l == $bytes[-1] ? 1 : 0;
+    return (@bytes && $l && $l == $bytes[-1]) ? 1 : 0;
 };
 
 sub is_utf8 {
@@ -127,5 +127,9 @@ Determines whether a Perl scalar is a UTF8 compliant string
  returns 0 otherwise
 
 =back 
+
+=head1 AUTHOR 
+
+Based entirely on L<Unicode::CheckUTF8>, written by Brad Fitzpatrick
 
 =cut
