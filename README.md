@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/mcmillhj/Unicode-CheckUTF8-PP.svg?branch=master)](https://travis-ci.org/mcmillhj/Unicode-CheckUTF8-PP)
-[![Coverage Status](https://coveralls.io/repos/mcmillhj/Unicode-CheckUTF8-PP/badge.png?branch=master)](https://coveralls.io/r/mcmillhj/Unicode-CheckUTF8-PP?branch=master)
+[![Coverage Status](https://coveralls.io/repos/mcmillhj/Unicode-CheckUTF8-PP/badge.svg?branch=master)](https://coveralls.io/r/mcmillhj/Unicode-CheckUTF8-PP?branch=master)
 [![Kwalitee status](http://cpants.cpanauthors.org/dist/Unicode-CheckUTF8-PP.png)](http://cpants.charsbar.org/dist/overview/Unicode-CheckUTF8-PP)
 
 # NAME
@@ -8,7 +8,7 @@ Unicode::CheckUTF8::PP - Pure Perl implementation of Unicode::CheckUTF8
 
 # VERSION
 
-version 0.001
+version 0.002
 
 # SYNOPSIS
 
@@ -28,9 +28,13 @@ Pure Perl implementation of [Unicode::CheckUTF8](https://metacpan.org/pod/Unicod
         returns 1 if the supplied string is UTF8 compliant 
         returns 0 otherwise
 
+# AUTHOR 
+
+Based entirely on [Unicode::CheckUTF8](https://metacpan.org/pod/Unicode::CheckUTF8), written by Brad Fitzpatrick
+
 # AUTHOR
 
-Hunter McMillen <mcmillhj@gmail.com>
+Hunter McMillen &lt;mcmillhj@gmail.com>
 
 # COPYRIGHT AND LICENSE
 

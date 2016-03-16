@@ -1,6 +1,7 @@
 Revision history for Unicode-CheckUTF8-PP
 
 {{$NEXT}}
-
+   - Fix condition where is_utf8 would throw warnings about comparing undef with ==
+   
 0.001       2016-03-07
    - Initial release with interface matching Unicode::CheckUTF8
