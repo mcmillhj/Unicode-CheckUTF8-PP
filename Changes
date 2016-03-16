@@ -1,6 +1,8 @@
 Revision history for Unicode-CheckUTF8-PP
 
 {{$NEXT}}
+
+0.002       2016-03-15
    - Fix condition where is_utf8 would throw warnings about comparing undef with ==
    
 0.001       2016-03-07
