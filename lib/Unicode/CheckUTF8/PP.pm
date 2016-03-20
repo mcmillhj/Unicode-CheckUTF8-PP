@@ -95,7 +95,7 @@ my $_isLegalUTF8String = sub {
        $i += $length;
     }
 
-    return (@bytes && $l && $l == $bytes[-1]) ? 1 : 0;
+    return ($l || 0) == ($bytes[-1] || 0) ? 1 : 0;
 };
 
 sub is_utf8 {
