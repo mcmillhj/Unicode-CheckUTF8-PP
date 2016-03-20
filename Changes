@@ -1,6 +1,8 @@
 Revision history for Unicode-CheckUTF8-PP
 
 {{$NEXT}}
+
+0.003       2016-03-20
    - Revise final check of is_utf8
    
 0.002       2016-03-15

@@ -8,7 +8,7 @@ Unicode::CheckUTF8::PP - Pure Perl implementation of Unicode::CheckUTF8
 
 # VERSION
 
-version 0.002
+version 0.003
 
 # SYNOPSIS
 
